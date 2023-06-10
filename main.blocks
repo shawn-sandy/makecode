@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="VTrI`3He8o7cogn+nccP">Player</variable><variable type="KIND_SpriteKind" id="){NmK-yAknm77,C-K*[B">Projectile</variable><variable type="KIND_SpriteKind" id="PvzxJhQNUs.)7Moj~tK(">Food</variable><variable type="KIND_SpriteKind" id=")#h*d8|6{||4CPyIZ+g1">Enemy</variable><variable id="Xr$hq5j}|,;Z3:Za$)9K">mySprite</variable><variable id="_BK7d_JAIg$vC!|=HciF">mySprite2</variable></variables><block type="pxt-on-start" id="//tt,:/Ld_-TIPO.K.pB" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="LTLd!K81c.pp}?X3^q`K"><value name="color"><shadow type="colorindexpicker" id="1i5qs0cGmWPImt!RPn/7"><field name="index">10</field></shadow></value><next><block type="gameSplash" id="_k(-6g3;E.Ky7l:-pqrR"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="title"><shadow type="text" id="B+sD9^Hd+P?4k?o7mV/?"><field name="TEXT">These blocks are in your workspace!</field></shadow></value><next><block type="variables_set" id="mvEC3Nk,9+V4w-*)Lx#{"><field name="VAR" id="Xr$hq5j}|,;Z3:Za$)9K">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="K%J@@fXcm,}aP@$L#7f="><value name="img"><shadow type="screen_image_picker" id="}o[lZUeL1rWJ:TPH,|E("><field name="img">img`
+. . . . . . f f f f . . . . . . 
+. . . . f f f 2 2 f f f . . . . 
+. . . f f f 2 2 2 2 f f f . . . 
+. . f f f e e e e e e f f f . . 
+. . f f e 2 2 2 2 2 2 e e f . . 
+. . f e 2 f f f f f f 2 e f . . 
+. . f f f f e e e e f f f f . . 
+. f f e f b f 4 4 f b f e f f . 
+. f e e 4 1 f d d f 1 4 e e f . 
+. . f e e d d d d d d e e f . . 
+. . . f e e 4 4 4 4 e e f . . . 
+. . e 4 f 2 2 2 2 2 2 f 4 e . . 
+. . 4 d f 2 2 2 2 2 2 f d 4 . . 
+. . 4 4 f 4 4 5 5 4 4 f 4 4 . . 
+. . . . . f f f f f f . . . . . 
+. . . . . f f . . f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"}o[lZUeL1rWJ:TPH,|E("}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="V]T5U8($w%owiuHX-bCC"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block><block type="keyonevent" id="~yDSdR,yO05}-#jeu!!^" x="640" y="0"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="startEffectOnSprite" id="+]9dLqZ|ULmYaE|55U3X"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><field name="effect">effects.spray</field><value name="sprite"><block type="variables_get" id="dryN-@wvkVSv/6zD)Ms0"><field name="VAR" id="Xr$hq5j}|,;Z3:Za$)9K">mySprite</field></block></value><value name="duration"><shadow type="timePicker"><field name="ms">1000</field></shadow><block type="device_random" id="=@_CW-w+:fw,4u_a4u[["><value name="min"><shadow type="math_number" id="|[B-bDqzp!-K,go-0u]A"><field name="NUM">100</field></shadow></value><value name="limit"><shadow type="math_number" id="gj-#r4|UV_K0+L?N6p/K"><field name="NUM">600</field></shadow></value></block></value></block></statement></block></xml>
